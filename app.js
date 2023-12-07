@@ -33,7 +33,7 @@ setInterval(() => {
 
 mounted = true;
 
-const token = "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"; // Replace with your actual token
+const token = "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"; // Replace with your actual token
 const apiUrl = `https://api.github.com/users/Vandertheprince`;
 const followersUrl = `${apiUrl}/followers`;
 
