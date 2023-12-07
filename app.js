@@ -76,7 +76,7 @@ fetch( apiUrl , {
 
     // Update the content of the .github-info paragraph
     const githubInfoContainer = document.querySelector("#github-info");
-    githubInfoContainer.textContent = `${userData.login}`;
+    githubInfoContainer.textContent = `${userData.name}`;
     const githubFollowerContainer = document.querySelector("#github-follow");
     githubFollowerContainer.textContent = `${followersData.length}`;
 })
